@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(12, 153, 196);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 2rem;
+}
+
+button{
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(17, 146, 62);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: all 350ms ease-in-out;
+}
+
+button:hover{
+    background: rgb(247, 151, 33);
+    color: rgb(0, 0, 0);
+}
+
+/* **************************************
+Criando estilo da modal login e cadastro
+***************************************** */
+
+.hide-modal{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show-modal{
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-login, .modal-register{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.702);
+    transition: all 350ms ease-in-out;
+}
