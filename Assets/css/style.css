@@ -63,7 +63,7 @@ Criando estilo da modal login e cadastro
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.702);
+    background: rgba(95, 95, 95, 0.702);
     transition: all 350ms ease-in-out;
 }
 
@@ -91,6 +91,10 @@ Criando estilo da modal login e cadastro
     gap: 1rem;
 }
 
+.input {
+    padding: 1rem 0;
+}
+
 .input input{
     outline: none;
     border: none;
@@ -101,3 +105,9 @@ Criando estilo da modal login e cadastro
     border-bottom: 0.5rem solid rgb(26, 6, 77)
 }
 
+.resultado_calcular{
+    padding: 1rem 0;
+    font-size: 2 rem;
+    text-align: center;
+    font-weight: bold;
+}
